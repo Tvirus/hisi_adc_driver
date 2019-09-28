@@ -1,0 +1,5 @@
+    hisi_adc {
+        compatible = "hisi_adc";
+        interrupt-parent = <&gic>;
+        interrupts = <0 65 4>;
+    };
